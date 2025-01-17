@@ -3,7 +3,7 @@ Bug Resistance is a web application which provides software courses to users. In
 
 <b><i>Application URL:</i></b> [Bug Resistance Link](https://bugresistance.com/ 'Visit Link') 
 
-***Software Testing Tool:*** <li>Testing Documentation: Microsoft Excel, Microsoft Word<br></li><li>Test Case Management Tool: [TestRail]<br></li><li>Project Management and Bug Tracking Tool: [Jira](https://github.com/nolakkapali/Bug-Resistance-Agile-Project/tree/main/Jira 'Visit Jira Folder')<br></li>
+***Software Testing Tool:*** <li>Testing Documentation: Microsoft Excel, Microsoft Word<br></li><li>Test Case Management Tool: [TestRail](https://github.com/nolakkapali/Bug-Resistance-Agile-Project/tree/main/TestRail 'Visit TestRail Folder')<br></li><li>Project Management and Bug Tracking Tool: [Jira](https://github.com/nolakkapali/Bug-Resistance-Agile-Project/tree/main/Jira 'Visit Jira Folder')<br></li>
 
 ### Agile Process
 ***
