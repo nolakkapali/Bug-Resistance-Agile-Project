@@ -40,16 +40,16 @@ In this project, Agile based scrum development model is followed to build the we
 
 ### BUR Sprint 1
 ***
-image of sprint backlog of BUR Sprint 1
+![Image](https://github.com/user-attachments/assets/f857677f-fb6d-4904-9964-35afea5fbd58)
 
 ### BUR Sprint 2
 ***
-image of sprint backlog of BUR Sprint 2
+![Image](https://github.com/user-attachments/assets/32aa75ea-e5de-4000-aa24-f7ee5cdb981a)
 
 
 ### BUR Sprint 3
 ***
-image of sprint backlog of BUR Sprint 3
+![Image](https://github.com/user-attachments/assets/a9c0a799-a354-4257-b689-9cd76c51590d)
 
 
 ### Jira Reports
