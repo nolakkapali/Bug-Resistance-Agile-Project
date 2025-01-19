@@ -79,7 +79,7 @@ the given time. It tracks velocity over the 3 sprint.<br>
 <li><b>Duplicate Bug:</b> The bug is duplicate and the actual bug is already reported.</li>
 </ol>
 <li><b>Fix Bugs:</b> It is a sub-task and the dev will assign the fix bug in this subtask and assign to the QA.</li>
-<li><b>QA Check:</b> After that QA check the bug and stated as <b>QA Check</b>.</li>
+<li><b>QA Done:</b> After that QA check the bug and stated as <b>QA Done</b>.</li>
 <li><b>Test Done:</b> After succesfully completeing the test the QA will assign the bug as <b>Test Done</b>.</li>
 <li><b>PM Check:</b> After the testing QA will assign the bug to PM for verifying and the task will be stated as <b>PM Check</b></li>
 <li><b>Finished:</b> After checking the bug, PM will close the bug and the bug will be stated as <b>Finished</b>.</li>
