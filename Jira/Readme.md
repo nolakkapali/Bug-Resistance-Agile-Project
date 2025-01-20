@@ -68,20 +68,20 @@ the given time. It tracks velocity over the 3 sprint.<br>
 <br><i>The Bug Life Cycle that is followd in the project is given below:</i><br>
 ![Image](https://github.com/user-attachments/assets/f64aaf7c-a31e-42fd-b5a7-eec839b88243) <br>
 
-<li><b>Verify Bugs:</b> It is a sub-task and here all bugs that are found during the sprint are reported to the dev.</li>
-<li><b>To Do:</b> The QA will stated the task as <b>To Do</b>  and assign it to the dev.</li>
-<li><b>In Progress:</b> After finding the bug, it is send to the developer. The developer check the bug and if it actually a bug then dev started working in the bug and it stated as <b>In progress</b>.</li>
-<li><b>Dev Done:</b> After completeing the work dev stated the bug as <b>Dev Done</b></li>
-<br><i> The defects that are not recognized as bugs by Dev.There are multiple cases for this: </i>
+<li><b>Verify Bugs:</b> It is a sub-task and all bugs that are found during the sprint included here and reported to the dev.</li>
+<li><b>To Do:</b> The QA stated the task as <b>To Do</b> and assigned it to the dev.</li>
+<li><b>In Progress:</b> After finding the bug, it is send to the developer. The developer checks the bug and if it actually a bug then dev started working in the bug and the task is stated as <b>In progress</b> state.</li>
+<li><b>Dev Done:</b> After finishing the task, dev stated the bug as <b>Dev Done</b></li>
+<br><i>There are defects that are not recognized as bugs by Dev.There are multiple cases for this: </i>
 <ol>
-<li><b>Not a bug:</b> The defect is not an bug and QA will test it though and if the PM approves it,the bug will be closed.</li>
-<li><b>Future releases:</b> Not important enugh to fix the bug in the current sprint.QA will identify those bugs and if the PM approves it, it will be move to future sprints.</li>
+<li><b>Not a bug:</b> The defect is not an bug and though QA verifies it and when the PM approves it,the bug is closed.</li>
+<li><b>Future releases:</b> Not important enugh to fix the bug in the current sprint.QA identifies those bugs and when the PM approves it, it is moved to future sprints.</li>
 <li><b>Duplicate Bug:</b> The bug is duplicate and the actual bug is already reported.</li>
-  <i>Every rejected bugs from the developer will be tested by QA in <b>QA Done/QA Check</b> state</i>
+  <i>Every rejected bugs from the developer is tested by QA in <b>QA Done/QA Check</b> state</i>
 </ol>
-<li><b>Fix Bugs:</b> It is a sub-task and the dev will keep the fix bug in this subtask and assign it to the QA.</li>
-<li><b>QA Done/QA Check:</b> After that QA will started to check the bug and the task will be stated as <b>QA Done/QA Check</b>.</li>
-<li><b>Test Done:</b> After succesfully completeing all the test on the bug, QA will assign the bug as <b>Test Done</b> and if the bug still not fixed,QA will send the bug to <b>Verify Bugs</b> sub-task  and stated the bug as <b>To Do</b> state.</li>
-<li><b>PM Check:</b> If the testing is passed, QA will assign the bug to PM for verifying and the task will be stated as <b>PM Check</b></li>
-<li><b>Finished:</b> After verifying the bug, if the bug is succesfully fixed PM will close the bug and the bug will be stated as <b>Finished</b> and if the bug is not successfully fixed, the bug will be send back to <b>Verify Bugs</b> sub-task and stated the task as <b>To Do</b> state.</li>
+<li><b>Fix Bugs:</b> It is a sub-task and the dev keeps the fix bug in this subtask and assigns it to the QA.</li>
+<li><b>QA Done/QA Check:</b> After that QA started to check the bug and the task is stated as <b>QA Done/QA Check</b>.</li>
+<li><b>Test Done:</b> After succesfully completeing all the test on the bug, QA assigns the bug as <b>Test Done</b> and if the bug is still not fixed,QA sends the bug to <b>Verify Bugs</b> sub-task  and stated the bug as in <b>To Do</b> state.</li>
+<li><b>PM Check:</b> If the testing is passed, QA assigns the bug to PM for verifying and the task is stated as <b>PM Check</b></li>
+<li><b>Finished:</b> After verifying the bug, when the bug is succesfully fixed PM closes the bug and the bug is stated as <b>Finished</b> and when the bug is not successfully fixed, the bug is send back to <b>Verify Bugs</b> sub-task and the task is stated as <b>To Do</b>.</li>
 
