@@ -5,12 +5,12 @@ In this project, Agile based scrum development model is followed to build the we
 ***
 <b>Step 1:</b><li> Bug Resistance application requirments are collected and product backlog is designed.</li>
 
-<b>Step 2:</b><li>In Jira, epics and users stories are created from product backlog.</li>
+<b>Step 2:</b><li>In Jira, product backlog is created with epics, users stories and sub-tasks.</li>
 <li>The whole application is divided into 4 epics. They are:</li><ol><li>Home</li><li>Course Admission</li><li>QA Services</li><li>Contact Us</li></ol> 
 <li>Each epic is broken down in multiple user stories and each user story is broken down into multiple sub-tasks.</li><li>Some sub-tasks are inter-related or dependent on each other </li><br>
 
 <b>Step 3:</b><li>The whole application is developed into 3 sprints.</li>
-<li>Each sprints will have their own sprint backlog including the epics, users stories and sub-tasks under this sprint will be organized before the sprint starts.</li>
+<li>Each sprints will have their own sprint backlog including selected epics, users stories and sub-tasks from profuct backlog and each sprint backlog will be organized before the sprint starts.</li>
 <li>Each sprint will last for minimum 1 week to maximum 4 weeks.</li>
 <li>Each sprint will result into a released version of the web application.</li><br>
 <table>
@@ -66,7 +66,7 @@ the given time. It tracks velocity over the 3 sprint.<br>
 ***
 <b>Defect Report:</b> All the defects found in the modules are reported to the team as defect report. The defects should be closed within that sprint or maybe prioritized later for the future sprints.<br>
 <br><i>The Bug Life Cycle that is followd in the project is given below:</i><br>
-![Image](https://github.com/user-attachments/assets/cc1ad2b1-acb1-4eb6-be21-43d88dfaa0bf) <br>
+![Image](https://github.com/user-attachments/assets/f64aaf7c-a31e-42fd-b5a7-eec839b88243) <br>
 
 <li><b>Verify Bugs:</b> It is a sub-task and here all bugs that are found during the sprint are reported to the dev.</li>
 <li><b>To Do:</b> The QA will stated the task as <b>To Do</b>  and assign it to the dev.</li>
@@ -74,13 +74,14 @@ the given time. It tracks velocity over the 3 sprint.<br>
 <li><b>Dev Done:</b> After completeing the work dev stated the bug as <b>Dev Done</b></li>
 <br><i> The defects that are not recognized as bugs by Dev.There are multiple cases for this: </i>
 <ol>
-<li><b>Not a bug:</b> The defect is not an bug and QA will test it though and if the PM approves it,that task will be directly stated as <b>Finished</b></li>
-<li><b>Future releases:</b> Not important enugh to fix the bug in the current sprint.If the PM approves it,it will be move to next sprint.</li>
+<li><b>Not a bug:</b> The defect is not an bug and QA will test it though and if the PM approves it,the bug will be closed.</li>
+<li><b>Future releases:</b> Not important enugh to fix the bug in the current sprint.QA will identify those bugs and if the PM approves it, it will be move to future sprints.</li>
 <li><b>Duplicate Bug:</b> The bug is duplicate and the actual bug is already reported.</li>
+  <i>Every rejected bugs from the developer will be tested by QA in <b>QA Done/QA Check</b> state</i>
 </ol>
-<li><b>Fix Bugs:</b> It is a sub-task and the dev will assign the fix bug in this subtask and assign to the QA.</li>
-<li><b>QA Done:</b> After that QA check the bug and stated as <b>QA Done</b>.</li>
-<li><b>Test Done:</b> After succesfully completeing the test the QA will assign the bug as <b>Test Done</b>.</li>
-<li><b>PM Check:</b> After the testing QA will assign the bug to PM for verifying and the task will be stated as <b>PM Check</b></li>
-<li><b>Finished:</b> After checking the bug, PM will close the bug and the bug will be stated as <b>Finished</b>.</li>
+<li><b>Fix Bugs:</b> It is a sub-task and the dev will keep the fix bug in this subtask and assign it to the QA.</li>
+<li><b>QA Done/QA Check:</b> After that QA will started to check the bug and the task will be stated as <b>QA Done/QA Check</b>.</li>
+<li><b>Test Done:</b> After succesfully completeing all the test on the bug, QA will assign the bug as <b>Test Done</b> and if the bug still not fixed,QA will send the bug to <b>Verify Bugs</b> sub-task  and stated the bug as <b>To Do</b> state.</li>
+<li><b>PM Check:</b> If the testing is passed, QA will assign the bug to PM for verifying and the task will be stated as <b>PM Check</b></li>
+<li><b>Finished:</b> After verifying the bug, if the bug is succesfully fixed PM will close the bug and the bug will be stated as <b>Finished</b> and if the bug is not successfully fixed, the bug will be send back to <b>Verify Bugs</b> sub-task and stated the task as <b>To Do</b> state.</li>
 
